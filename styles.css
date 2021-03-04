@@ -1,0 +1,44 @@
+#calculator-container {
+    margin: auto;
+    height: 60vh;
+    width: 45vw;
+    border: solid 1px black;
+}
+
+#result-box{
+    margin: auto;
+    width: 45vw;
+    height: 10vh;
+    border: solid 1px blue;
+    text-align: right;
+    position: relative;
+}
+
+#result-text{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#operations{
+    width:45vw;
+    height: 10vh;
+    border: solid 1px purple;
+    display: flex;
+}
+
+.button{
+    margin: auto;
+    flex-direction: column;
+}
+
+#numbers{
+    margin: 15px 15px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100% 100% 100% 100%;
+}
+
+#numbers.button{
+    
+}
